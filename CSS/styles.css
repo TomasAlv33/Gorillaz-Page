@@ -59,6 +59,7 @@ html{
     color: black;
 }
 
+
 @media screen and (max-width: 1150px){
 
     .navbar__logo{
@@ -114,8 +115,18 @@ html{
 }
 
 .home img{
-    width: 90%;
+    width: 80%;
     padding: 2rem 0 2rem;
+    transform: scaleX(-100px);
+    transform: scale(0.9);
+    opacity: 0 ;
+    transition: 1.5s ease-in-out all ;
+}
+
+.home img.visible{
+    opacity: 1;
+    transform: scale(1);
+    transform: scaleX(0px);
 }
 
 @media screen and (max-width: 1150px){
@@ -190,6 +201,18 @@ html{
 
 .tour__img img {
     width: 50%;
+
+
+    transform: scale(0.9);
+    opacity: 0 ;
+    transition: 1.5s ease-in-out all ;
+    transform: scaleX(-100px);
+}
+
+.tour__img img.visible{
+    transform: scale(1);
+    opacity: 1;
+    transform: scaleX(0px);
 }
 
 .tour__container{
