@@ -8,6 +8,10 @@ const cargarImagen=(entradas , observador) =>{
         if(entradas.isIntersecting){
             entradas.target.classList.add('visible');
         }
+        else{
+            entradas.target.classList.remove('visible');
+
+        }
     });
 
 }

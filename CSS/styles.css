@@ -117,16 +117,14 @@ html{
 .home img{
     width: 80%;
     padding: 2rem 0 2rem;
-    transform: scaleX(-100px);
-    transform: scale(0.9);
-    opacity: 0 ;
-    transition: 1.5s ease-in-out all ;
+    transform: scale(0.3) translateX(-500px)  ;
+    opacity: 0;
+    transition: 1s ease-in-out all ;
 }
 
 .home img.visible{
     opacity: 1;
-    transform: scale(1);
-    transform: scaleX(0px);
+    transform: scale(1) translateX(0px);
 }
 
 @media screen and (max-width: 1150px){
@@ -203,16 +201,14 @@ html{
     width: 50%;
 
 
-    transform: scale(0.9);
+    transform: scale(0.3) translateX(500px);
     opacity: 0 ;
-    transition: 1.5s ease-in-out all ;
-    transform: scaleX(-100px);
+    transition: 1s ease-in-out all ;
 }
 
 .tour__img img.visible{
-    transform: scale(1);
     opacity: 1;
-    transform: scaleX(0px);
+    transform: scale(1) translateX(0px);
 }
 
 .tour__container{
