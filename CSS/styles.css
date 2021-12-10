@@ -89,7 +89,7 @@ html{
 
     .navbar__menu a {
        width: 70%;
-       height: 4rem;
+       height: 3rem;
        padding: 0rem;
        margin: 0.5rem ;
        font-size: 2.5rem;
@@ -130,8 +130,8 @@ html{
 @media screen and (max-width: 1150px){
     
     .home img{
-    width: 100%;
-    height: auto;
+    width: 90%;
+    height: 22rem;
     }
 }
 
@@ -144,9 +144,10 @@ html{
     align-items: center;
 }
 
-.title{
+.title {
     color: greenyellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 2rem;
     font-size: 4rem;
     width: 75%;
     display: flex;
@@ -162,8 +163,9 @@ html{
 }
 
 @media screen and (max-width: 720px){
-    .title{
-        font-size: 2.5rem;
+    .title {
+        font-size: 2rem;
+        margin-bottom: 0rem;
     }
 
     .disco__spotify{
@@ -181,13 +183,6 @@ html{
     flex-direction: column;
     align-items: center;
     padding: 10rem 0 10rem;
-}
-
-#tour h2 {
-    color: greenyellow;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 5rem;
-    padding-bottom: 4rem;
 }
 
 .tour__img{
@@ -283,8 +278,27 @@ html{
         word-break: break-all;
     }
 
+  
     #tour{
         padding: 5rem 0 5rem;
+    }
+}
+
+@media screen and (max-width: 565px){
+    .tour__container--btn{
+        max-width: 4rem;
+    }
+    
+    .tour__container--info{
+        max-width: 15rem;
+    }
+
+    .tour__container--info h3{
+        font-size: 1.7rem;
+    }
+
+    .tour__container--info p{
+        font-size: 0.7rem;
     }
 }
 
